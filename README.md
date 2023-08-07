@@ -1,39 +1,99 @@
-# Math Magicians
+<a name="readme-top"></a>
 
-> Math Magicians is a website for performing basic maths calculations, This website is built using REACT and JavaScript libraries.
+<!-- TABLE OF CONTENTS -->
 
-Project's features are added into seperate branch to keep main branch safe.
+# 📗 Table of Contents
 
-## Built With
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+    - [Future Features](#future-features)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Test](#test)
+- [👥 Authors](#authors)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [📝 License](#license)
 
-- HTML
-- CSS
-- JavaScript
-- Webpack
-- REACT
+<!-- PROJECT DESCRIPTION -->
 
-## Getting Started
+# 📖 REACT Math Magicians <a name="about-project"></a>
 
-To get a local copy up and running follow these simple example steps.
+**REACT Math Magicians** is a website for performing basic maths calculations, This website is built using REACT and JavaScript libraries
 
-### Prerequisites
+## 🛠 Built With <a name="built-with"></a>
 
-- A text editor(preferably Visual Studio Code)
+### Tech Stack <a name="tech-stack"></a>
 
-### Install
+<details>
+  <summary>Client</summary>
+    - HTML
+    - CSS
+    - JavaScript
+    - Webpack
+    - REACT
+</details>
 
-- [Git](https://git-scm.com/downloads)
-- [Node](https://nodejs.org/en/download/)
+<!-- Features -->
 
-### Using it Locally
+### Key Features <a name="key-features"></a>
 
-- Clone the project from GitHub `https://github.com/ahmidou09/math-magicians.git`
-- Run the following commands as listed in your terminal:
-- `npm install`
-- `npm start # this will make webpack watching for your changes in code`
-- `npm run test #This is to run the tests`
+- Make simple calculations.
+- Read a random math-related quote.
 
-## Authors
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Future Features <a name="future-features"></a>
+
+- **Implement a Database**
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+To get a local copy up and running, follow these steps.
+
+### Setup
+
+Clone this repository to your desired folder:
+
+```
+git clone https://github.com/ahmidou09/math-magicians.git
+cd math-magicians
+code . (To open VS Code Editor)
+```
+
+Then, you will change everything you want!
+
+### Commands
+
+- ✔️ _npm start_:
+  Runs the app in the development mode. Open http://localhost:3000 to view it in the browser.
+
+- ✔️ _npm test_:
+  Launches the test runner in the interactive watch mode. See the section about running tests for more information.
+
+- ✔️ _npm run build_:
+  Builds the app for production to the build folder. It correctly bundles React in production mode and optimizes the build for the best performance.
+
+### Test
+
+In order to follow the Linters you could check them using this:
+
+```
+CSS Checker:
+npx stylelint "**/*.{css,scss}"
+
+ESLint Checker:
+npx eslint "**/*.{js,jsx}"
+```
+
+#### Note
+
+Use at the end '--fix' to help you out with any error.
+
+## 👥 Authors <a name="authors"></a>
 
 👤 **El mehdi Ahmidou**
 
@@ -41,20 +101,38 @@ To get a local copy up and running follow these simple example steps.
 - Twitter: [@el_ahmidou](https://twitter.com/el_ahmidou)
 - LinkedIn: [el mehdi ahmidou](https://www.linkedin.com/in/el-mehdi-ahmidou-312590125/)
 
-## 🤝 Contributing
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Contributions, issues, and feature requests are welcome!
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
+
+All contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](https://github.com/ahmidou09/math-magicians/issues).
 
-## Show your support
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Give a ⭐️ if you like this project!
+<!-- SUPPORT -->
 
-## Acknowledgments
+## ⭐ Show your support <a name="support"></a>
 
-- Inspiration: Microverse
+If you like this project, please support me with a like or a star.
 
-## 📝 License
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+Thanks to my learning partners and the staff at Microverse.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
 
 This project is [MIT](./MIT.md) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
