@@ -1,7 +1,9 @@
+import React, { useState } from 'react';
 import Calculator from './components/Calculator';
 import Screen from './components/Screen';
 import BoxButton from './components/BoxButton';
 import Button from './components/Button';
+import calculate from './logic/calculate';
 
 const btnValues = [
   ['AC', '+/-', '%', '÷'],
@@ -11,15 +13,23 @@ const btnValues = [
   [0, '.', '='],
 ];
 
-const App = () => (
-  <Calculator>
-    <Screen />
-    <BoxButton>
-      {btnValues.flat().map((btn) => (
-        <Button value={btn} key={btn} />
-      ))}
-    </BoxButton>
-  </Calculator>
-);
+const App = () => {
+  const [calc, setCalc] = useState({});
+  const { next, total } = calc;
 
+  return (
+    <Calculator>
+      <Screen next={next} total={total} />
+      <BoxButton>
+        {btnValues.flat().map((btn) => (
+          <Button
+            value={btn.toString()} // Convert to string
+            key={btn}
+            onClick={() => setCalc(calculate(calc, btn.toString()))}
+          />
+        ))}
+      </BoxButton>
+    </Calculator>
+  );
+};
 export default App;
