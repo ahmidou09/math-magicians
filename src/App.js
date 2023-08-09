@@ -4,6 +4,7 @@ import Screen from './components/Screen';
 import BoxButton from './components/BoxButton';
 import Button from './components/Button';
 import calculate from './logic/calculate';
+import Quote from './components/Quote';
 
 const btnValues = [
   ['AC', '+/-', '%', '÷'],
@@ -18,18 +19,21 @@ const App = () => {
   const { next, total } = calc;
 
   return (
-    <Calculator>
-      <Screen next={next} total={total} />
-      <BoxButton>
-        {btnValues.flat().map((btn) => (
-          <Button
-            value={btn.toString()} // Convert to string
-            key={btn}
-            onClick={() => setCalc(calculate(calc, btn.toString()))}
-          />
-        ))}
-      </BoxButton>
-    </Calculator>
+    <div className="app">
+      <Calculator>
+        <Screen next={next} total={total} />
+        <BoxButton>
+          {btnValues.flat().map((btn) => (
+            <Button
+              value={btn.toString()} // Convert to string
+              key={btn}
+              onClick={() => setCalc(calculate(calc, btn.toString()))}
+            />
+          ))}
+        </BoxButton>
+      </Calculator>
+      <Quote />
+    </div>
   );
 };
 export default App;
