@@ -32,7 +32,6 @@ const Quote = () => {
 
   return (
     <div className="quote">
-      <h2>Random Quote</h2>
       {loading ? <p>Loading...</p> : null}
       {error ? <p>{error}</p> : null}
       {quote && !loading && !error ? <p>{quote}</p> : null}

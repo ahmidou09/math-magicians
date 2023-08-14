@@ -18,16 +18,19 @@ const Calculator = () => {
 
   return (
     <div className="calc-container">
-      <Screen next={next} total={total} />
-      <BoxButton>
-        {btnValues.flat().map((btn) => (
-          <Button
-            value={btn.toString()}
-            key={btn}
-            onClick={() => setCalc(calculate(calc, btn.toString()))}
-          />
-        ))}
-      </BoxButton>
+      <h2>Lets do some math!</h2>
+      <div className="calc">
+        <Screen next={next} total={total} />
+        <BoxButton>
+          {btnValues.flat().map((btn) => (
+            <Button
+              value={btn.toString()}
+              key={btn}
+              onClick={() => setCalc(calculate(calc, btn.toString()))}
+            />
+          ))}
+        </BoxButton>
+      </div>
     </div>
   );
 };
