@@ -1,4 +1,3 @@
-/* eslint-disable linebreak-style */
 import calculate from '../logic/calculate';
 
 describe('calculate function', () => {

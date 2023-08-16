@@ -1,5 +1,3 @@
-/* eslint-disable linebreak-style */
-/* eslint-disable comma-dangle */
 import operate from '../logic/operate';
 
 describe('operate function', () => {
@@ -29,7 +27,7 @@ describe('operate function', () => {
 
   it('returns an error message when finding modulo with 0 divisor', () => {
     expect(operate('10', '0', '%')).toBe(
-      "Can't find modulo as can't divide by 0."
+      "Can't find modulo as can't divide by 0.",
     );
   });
 
