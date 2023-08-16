@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders loading state initially 1`] = `
+<DocumentFragment>
+  <div
+    class="quote"
+  >
+    <p>
+      Loading...
+    </p>
+  </div>
+</DocumentFragment>
+`;
