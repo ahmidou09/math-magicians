@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Button component with value 1`] = `
+<div>
+  <button
+    class="undefined button"
+    type="button"
+  >
+    7
+  </button>
+</div>
+`;

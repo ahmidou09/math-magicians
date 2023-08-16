@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Screen component with default value 1`] = `
+<div>
+  <div
+    class="screen"
+    data-testid="screen"
+  >
+    0
+  </div>
+</div>
+`;
+
+exports[`renders Screen component with next value 1`] = `
+<div>
+  <div
+    class="screen"
+    data-testid="screen"
+  >
+    42
+  </div>
+</div>
+`;
+
+exports[`renders Screen component with total value 1`] = `
+<div>
+  <div
+    class="screen"
+    data-testid="screen"
+  >
+    123
+  </div>
+</div>
+`;
