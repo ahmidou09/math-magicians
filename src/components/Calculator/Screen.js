@@ -2,7 +2,9 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const Screen = ({ next, total }) => (
-  <div className="screen">{next || total || '0'}</div>
+  <div className="screen" data-testid="screen">
+    {next || total || '0'}
+  </div>
 );
 
 Screen.propTypes = {
